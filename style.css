@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  background-image: url(./src/StarSky.jpg);
+  background-repeat: no-repeat;
+
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#container {
+  margin-top: 100px;
+  width: 80%;
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  opacity: 1; 
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  opacity: 1;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7), 0 6px 20px 0 rgba(0,0,0,0.28);
+}
+
+input {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: rgb(86, 116, 192);
+  color: white; 
+  transition: filter .2s
+}
+
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+#resposta {
+ margin-top: 30px;
+ transition: opacity 1s;
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
